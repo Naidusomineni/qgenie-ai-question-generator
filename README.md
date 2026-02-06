@@ -15,3 +15,9 @@ Python, Flask, JSON, HTML, CSS
 ## Run
 pip install -r requirements.txt
 python app.py
+  ## Screenshots
+
+![Home](screenshots/home.png)
+
+![Output](screenshots/output.png)
+
