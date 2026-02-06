@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QGenie - AI Question Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>QGenie – AI Question Generator</h1>
+
+    <form method="POST">
+        <input type="text" name="topic" placeholder="Enter topic (e.g. Machine Learning)" required>
+        <button type="submit">Generate Questions</button>
+    </form>
+
+    {% if questions %}
+        <ul>
+            {% for q in questions %}
+                <li>{{ q }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</div>
+
+</body>
+</html>
