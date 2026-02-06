@@ -1,0 +1,20 @@
+{
+  "default": [
+    "Define the concept clearly.",
+    "Explain real-world applications.",
+    "List advantages and disadvantages.",
+    "Describe challenges involved."
+  ],
+  "machine learning": [
+    "What is supervised learning?",
+    "Explain overfitting.",
+    "What is regression vs classification?",
+    "What are evaluation metrics?"
+  ],
+  "python": [
+    "What are decorators?",
+    "Explain list comprehensions.",
+    "What is GIL?",
+    "Explain virtual environments."
+  ]
+}
