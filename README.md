@@ -1,11 +1,16 @@
 # QGenie – AI Question Generator
 
-Simple AI-based question generator built using Python Flask.
+A Flask-based AI-style web application that generates exam questions dynamically based on topics.
 
 ## Features
-- Generates sample questions
-- API-based structure
-- Can be extended with LLMs
+- Topic-based question generation
+- Clean project architecture
+- Flask backend
+- HTML + CSS frontend
+- Easily extendable to OpenAI/Gemini APIs
+
+## Tech Stack
+Python, Flask, JSON, HTML, CSS
 
 ## Run
 pip install -r requirements.txt
